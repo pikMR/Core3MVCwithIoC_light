@@ -1,0 +1,11 @@
+﻿@model OrderReceiverSystem.Modelos.ViewModel.OrderViewModel
+@{
+    ViewData["Title"] = "View";
+}
+
+<h1>ORDER LIST DATA</h1>
+<u>Order: </u>
+<br />
+<i>@Html.Raw(Model.Id)</i>
+
+@Url.Action("Call", "OrderListData")

@@ -110,3 +110,4 @@ C:\Users\zovbe\source\repos\OrderReceiverSystem\obj\Debug\netcoreapp3.1\OrderRec
 C:\Users\zovbe\source\repos\OrderReceiverSystem\obj\Debug\netcoreapp3.1\Razor\Views\ExampleLog\Index.cshtml.g.cs
 C:\Users\zovbe\source\repos\OrderReceiverSystem\obj\Debug\netcoreapp3.1\OrderReceiverSystem.RazorTargetAssemblyInfo.cs
 C:\Users\zovbe\source\repos\OrderReceiverSystem\obj\Debug\netcoreapp3.1\OrderReceiverSystem.Views.pdb
+C:\Users\zovbe\source\repos\OrderReceiverSystem\obj\Debug\netcoreapp3.1\Razor\Views\OrderListData\Index.cshtml.g.cs

@@ -18,8 +18,10 @@ namespace OrderReceiverSystem
             
             // Servicios propios
             services.Add(new ServiceDescriptor(typeof(ILog), new LogSystem())); // singleton
-            services.AddTransient(typeof(ILocation), typeof(OrderLocation)); //Transient
-            services.AddScoped(typeof(IDepartment), typeof(DepartmentStockAvailability)); // Scoped
+           services.AddSingleton<ILocation, OrderLocation>();
+            //services.AddTransient(typeof(ILocation), typeof(OrderLocation)); //Transient
+            //services.AddScoped(typeof(ILocation), typeof(OrderLocation)); //Transient
+            //services.AddScoped(typeof(IDepartment), typeof(DepartmentStockAvailability)); // Scoped
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

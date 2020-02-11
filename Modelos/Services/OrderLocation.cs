@@ -6,9 +6,20 @@ namespace OrderReceiverSystem.Modelos.Services
 {
     public class OrderLocation : ILocation
     {
-        public void GetLocation([FromServices] string coordenadas)
+        private string _data = String.Empty;
+        public string Get()
         {
-            Console.WriteLine(coordenadas);
+            return _data;
+        }
+
+        public void Append(string data)
+        {
+            _data += "<p>"+data+"</p>";
+        }
+
+        public void Clear()
+        {
+            _data = String.Empty;
         }
 
         #region IDisposable Support

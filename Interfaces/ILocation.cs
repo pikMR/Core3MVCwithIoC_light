@@ -4,6 +4,8 @@ namespace OrderReceiverSystem.Interfaces
 {
     public interface ILocation : IDisposable
     {
-        public void GetLocation(string coordenadas);
+        string Get();
+        void Append(string data);
+        void Clear();
     }
 }
